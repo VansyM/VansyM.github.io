@@ -2,9 +2,13 @@
 {% include escape-404.html %}
 <section class="author-box">
   <div class="narrow-column">
-      <video preload="true" muted="" width="120" loop="" playsinline="" autoplay="" src="https://cdn.dribbble.com/users/86597/screenshots/17235119/media/894c910f649dcf03695d7884144053ad.mp4">
-      </video>
-    <a href='{{ site.website }}'><img src="{{ relativebase }}assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{ site.author }}" class="author-img"></a>
+
+    <a href='{{ site.website }}'>
+        <video preload="true" muted="" width="250" loop="" playsinline="" autoplay="" src="https://cdn.dribbble.com/users/86597/screenshots/17235119/media/894c910f649dcf03695d7884144053ad.mp4">
+        </video>
+        <!--<img src="{{ relativebase }}assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{ site.author }}" class="author-img">-->
+
+    </a>
         <ul class="contact-icons">
       {% if site.twitter %}
       <li class="twitter"><a class="twitter" href="https://twitter.com/{{site.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
