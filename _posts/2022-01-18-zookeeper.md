@@ -37,7 +37,7 @@ Zookeeper 提供一个多层级的节点命名空间（节点称为 znode）。�
 
 客户端与 zookeeper 断开连接后，该节点被删除，只是 Zookeeper 给该节点名称进行顺序编号 
 
-![1](zookeeper面试专题及答案.assets/1.jpg)
+![1](./zookeeper面试专题及答案.assets/1.jpg)
 
 # 5.Zookeeper 通知机制 
 
